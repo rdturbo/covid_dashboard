@@ -1,0 +1,17 @@
+.hide-image {
+    display: none !important;
+}
+
+.skeleton-item {
+    min-height: 200px !important;
+}
+
+.icon-skeleton {
+    min-height: 60px !important;
+    max-width: 60px !important;
+
+    @media (max-width:  960px) {
+        min-width: 36px !important;
+        min-height: 36px !important;
+    }
+}
