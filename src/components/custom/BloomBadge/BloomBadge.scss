@@ -1,0 +1,17 @@
+@import "../../../colors.scss";
+
+.bloom-badge {
+    position: relative;
+    display: inline-block;
+    padding: 8px 16px;
+
+    .bloom-badge-background {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 24px;
+        opacity: 0.15;
+    }
+}
