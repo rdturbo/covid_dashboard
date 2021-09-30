@@ -1,0 +1,72 @@
+@import "../../colors.scss";
+
+.transactions {
+  .transactions-content {
+    @media (min-width: 960px) {
+      .MuiTabs-indicator {
+        left: 0;
+        width: 5px !important;
+      }
+
+      .Mui-selected {
+        font-size: 28px !important;
+        font-weight: 300;
+      }
+
+      .MuiTab-wrapper {
+        font-family: "Rubik", sans-serif;
+        color: $color-text--primary !important;
+      }
+
+      .MuiTab-root {
+        font-weight: 300;
+        font-size: 18px;
+      }
+    }
+
+    .container {
+      width: 100%;
+      @media (max-width: 1140px) {
+        width: 100%;
+        padding: 16px 24px;
+      }
+    }
+
+    .grey-card {
+      width: 100%;
+      padding: 16px;
+      margin-bottom: 8px;
+      background-color: #f2f2f7;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .space-between {
+      justify-content: space-between;
+    }
+
+    .align-self-center {
+      align-self: center;
+    }
+
+    .align-items-center {
+      align-items: center;
+    }
+
+    .align-item-baseline {
+      align-items: baseline;
+    }
+
+    .cashflow-desktop--hide {
+      @media (min-width: 960px) {
+        display: none !important;
+      }
+    }
+
+    .cashflow-mobile--hide {
+      @media (max-width: 959px) {
+        display: none !important;
+      }
+    }
+  }
+}
